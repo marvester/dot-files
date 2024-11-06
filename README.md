@@ -1,1 +1,5 @@
-Collection of configuration files that I use
+Run
+```
+zsh install.sh
+```
+
