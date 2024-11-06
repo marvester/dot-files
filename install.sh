@@ -67,4 +67,10 @@ nvm use 22
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | bash
 source ~/.zshrc
 
+# astronvim
+if [ ! -d ~/.config/nvim ]; then
+  git clone git@github.com:marvester/astronvim_config.git ~/.config/nvim
+else
+  echo "NVIM config already exists. Not cloning astronvim"
+fi
 
