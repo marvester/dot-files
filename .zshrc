@@ -87,6 +87,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Rust config
+. "$HOME/.cargo/env"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
