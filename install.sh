@@ -3,6 +3,9 @@
 # install homebrew
 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
 
+# opt out of analytics
+brew analytics off
+
 # install tools
 brew install zsh git lazygit neovim bottom tree tmux typst sqlite jq deno kotlin
 
