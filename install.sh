@@ -7,12 +7,12 @@ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | 
 brew analytics off
 
 # install tools
-brew install zsh git lazygit neovim bottom tree tmux typst sqlite jq deno kotlin
+brew install zsh git lazygit neovim bottom tree tmux typst sqlite jq deno kotlin ripgrep
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
-configure tmux
+# configure tmux
 cp .tmux.conf ~
 
 if [ ! -d ~/.tmux/plugins/tpm ]; then
