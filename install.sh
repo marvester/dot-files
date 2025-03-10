@@ -2,6 +2,9 @@
 
 # install homebrew
 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
+echo >> /Users/mesterhu/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/mesterhu/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # opt out of analytics
 brew analytics off
